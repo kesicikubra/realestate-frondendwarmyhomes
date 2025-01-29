@@ -1,0 +1,43 @@
+@use "../../styles/variables.scss" as v;
+@use "../../styles/mixins.scss" as m;
+
+.visit-office{
+
+    .visit-header{
+        h2{
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .d-flex{
+        margin: 2rem;
+        p{
+            background-color: v.$color-text2;
+            @include m.border-radius(50%);
+            width: 155px;
+            height: 155px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        span{
+            &:first-child{
+                font-size: 15px;
+            }
+            &:last-child{
+                max-width: 166px;
+                font-size: 15px;
+                font-weight: lighter;
+                opacity: 0.9;
+                text-align: center;
+            }
+        }
+    }
+
+    @media(max-width: 992px){
+        margin-top: 50px;
+    }
+}

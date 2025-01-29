@@ -1,0 +1,29 @@
+@use "../../../../styles/variables.scss" as v;
+
+form{
+    &.properties-report{
+        display: flex;
+
+        .card{
+            border: none;
+            border-radius: 15px 0 0 15px;
+            background-color: #F5F5F5;
+        }
+
+        button{
+            border: none;
+            border-radius: 0 15px 15px 0;
+            background-color: #D9D9D9;
+        }
+
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: v.$color1;
+            color: #F5F5F5;
+            border-radius: 0 15px 15px 0;
+        }
+    }
+}

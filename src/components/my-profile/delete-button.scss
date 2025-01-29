@@ -1,0 +1,40 @@
+@use "../../styles/variables" as v;
+
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &.password-group{
+        position: relative;
+        transition: all 0.2s linear;
+
+        svg{
+          position: absolute;
+          top: 40px;
+          right: 10px;
+          transition: all 0.2s linear;
+          z-index: 10;
+        }
+      }
+
+    label{
+        font-size: 12px;
+    }
+
+    input{
+        background-color:#EAE9E9;
+        border: none;
+        border-radius: 0;
+        border-bottom: 2px solid v.$color-text2;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .invalid-feedback{
+        position: absolute;
+        bottom: -20px;
+    }
+}

@@ -1,0 +1,72 @@
+@use "../../../styles/variables.scss" as v;
+
+.container{
+
+    .img-col{
+        position: relative;
+        
+        img{
+            border-radius: 20px;
+        }
+    }
+
+    span{
+        &.status{
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            z-index: 2;
+        }
+    }
+    
+    .title{
+        display: inline-block;
+    }
+
+    .price-tag{
+        margin-left: 350px;
+        font-size: 20px;
+        display: inline-block;
+    }
+
+    
+    .input-group{
+        display: inline-block;
+
+        
+        
+        input{
+            border: none;
+            padding: 7px;
+            background-color: #eae9e9;
+            border-bottom: 1px solid v.$color-text2;
+            width: 100%;
+
+            @media(min-width:992px){
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    
+    .buttons{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1rem;
+
+        @media(max-width:992px){
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        button{
+            width: 140px;
+
+            @media(max-width:576px){
+                width: 250px;
+            }
+        }
+    }
+    
+}

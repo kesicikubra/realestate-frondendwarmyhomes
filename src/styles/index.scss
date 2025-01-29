@@ -1,0 +1,77 @@
+@import "./variables";
+@import "bootstrap/scss/bootstrap";
+@import "sweetalert2/src/variables";
+@import "sweetalert2/src/sweetalert2";
+
+a {
+	text-decoration: none;
+}
+
+.placeholder{
+    background-color: $color1-opacity-50;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: $color1 !important;
+	border-color: $color1 !important;
+}
+// Yeni branch teki ilk satır
+
+
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
+    box-shadow: none !important;
+}
+
+div:where(.swal2-icon).swal2-warning,
+div:where(.swal2-icon).swal2-info,
+div:where(.swal2-icon).swal2-question {
+    border-color: $color1-opacity-50 !important;
+    color: $color1 !important;
+}
+
+@keyframes wave {
+    0% {
+      transform: rotateY(0);
+    }
+    50% {
+      transform: rotateY(360deg);
+    }
+    100% {
+      transform: rotateY(720deg);
+    }
+  }
+  
+  .wave-image {
+    width: 125px;
+    height: auto;
+    animation: wave 3s infinite;
+  }
+  .invalid-feedback{
+    color: $color1 !important
+  }
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+    border-color: var(--bs-form-invalid-border-color);
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='rgb(149,23,99)'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='rgb(149,23,99)' stroke='none'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+.was-validated .form-select:invalid:not([multiple]):not([size]),
+.was-validated .form-select:invalid:not([multiple])[size="1"],
+.form-select.is-invalid:not([multiple]):not([size]),
+.form-select.is-invalid:not([multiple])[size="1"] {
+    --bs-form-select-bg-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='rgb(149,23,99)'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='rgb(149,23,99)' stroke='none'/%3e%3c/svg%3e");
+    padding-right: 4.125rem;
+    background-position: right 0.75rem center, center right 2.25rem;
+    background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}

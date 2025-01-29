@@ -1,0 +1,6 @@
+[
+    {"title":"Pending", "value":"PENDING"},
+    {"title":"Approved", "value":"APPROVED"},
+    {"title":"Declined", "value":"DECLINED"},
+    {"title":"Canceled", "value":"CANCELED"}
+]

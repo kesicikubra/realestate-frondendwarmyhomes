@@ -1,0 +1,25 @@
+@use "../../../styles/variables.scss" as v;
+
+.edit-imagetabs-container{
+
+    .nav-tabs{
+        width: 100%;
+
+        li{
+            width: 50%;
+
+            a{
+                color: v.$color-text;
+                &:hover{
+                    border-color: v.$color1;
+                    border-bottom: none;
+                }
+
+                &.active{
+                    color: v.$color1;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

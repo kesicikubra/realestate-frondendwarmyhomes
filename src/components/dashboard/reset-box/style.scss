@@ -1,0 +1,52 @@
+@use "../../../styles/variables.scss" as v;
+
+.reset-box {
+  max-width: 750px;
+  background-color: #ffe0e0;
+  padding: 3rem;
+  border-radius: 15px;
+
+  h5 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  button {
+    &.reset {
+      background-color: v.$color-text2;
+      color: white;
+      border: none;
+      height: 40px;
+      width: 150px;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+  }
+  .input-group {
+    display: flex;
+    flex-direction: column;
+
+    
+    &.reset-group {
+        position: relative;
+        transition: all 0.2s linear;
+
+        svg {
+          position: absolute;
+          top: 35px;
+          right: 15px;
+          transition: all 0.2s linear;
+          z-index: 10;
+        }
+        
+        input {
+          width: 100%;
+        }
+      }
+  }
+}

@@ -1,0 +1,25 @@
+@use "../../../../styles/variables.scss" as v;
+@use "../../../../styles/mixins.scss" as m;
+
+.up-button {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1000;
+    background-color: v.$color1;
+    color: v.$color4;
+    border: none;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 20px;
+    @include m.border-radius(50%);
+
+
+    cursor: pointer;
+    @include m.transition(opacity, 0.3s, ease);
+        &.show {
+            display: block;
+            text-align: center;
+        }
+  }

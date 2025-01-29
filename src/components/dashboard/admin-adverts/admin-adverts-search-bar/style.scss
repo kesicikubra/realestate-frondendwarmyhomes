@@ -1,0 +1,28 @@
+
+form{
+    .input-group{
+        margin-bottom: 20px;
+    }
+    .form-select{
+        margin-bottom: 20px;
+    }
+
+    .select-menus{
+        
+        
+        @media(min-width: 576px){
+            display: flex;
+            gap: 1rem;
+        }
+        .search-btn{
+            display: flex;
+            justify-content: flex-end;
+            button{
+
+                @media(max-width: 576px){
+                    width: 100px !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,106 @@
+@use "../../../../styles/variables.scss" as v;
+
+.dashboard-panel{
+    display: flex;
+    height: 100%;
+
+    @media(max-width:1400px){
+        min-height: 100%;
+    }
+    
+    div{
+        &.pro-sidebar{
+            background-color: v.$color1;
+            position: sticky;
+            height: 100vh;
+            overflow-y: hidden;
+            top: 0;
+
+            @media(max-width:768px){
+
+                &.gaTCvF.toggled {
+                    width: 50px;
+                    min-width: 50px;
+                }
+            }
+
+            div {
+                &::-webkit-scrollbar {
+                  width: 0;
+                }
+
+                li {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+              }
+
+              &.toggled {
+                overflow-y: hidden;
+              }
+
+            div{
+                &.head-div{
+                    background-color: v.$color1;
+                    position: relative;
+                }
+                &.toggled{
+                    padding-left: 0;
+                    padding-right: 0;
+
+                    .close-btn{
+
+                        span{
+                            position: static;
+                            
+                            &:nth-child(2){
+                                opacity: 1;
+                            }
+                    
+                            &:first-child{
+                                transform: rotate(0deg);
+                            }
+                    
+                            &:last-child{
+                                transform: rotate(0deg);
+                            }
+                        }
+                    }
+                }
+            }
+        
+            nav{
+                background-color: v.$color1;
+                color: white;
+        
+                a{
+                    font-size: 1.1rem;
+                    background-color: v.$color1;
+                    width: 100%;
+                    height: 100%;
+                    color: white;
+            
+                    span{
+                        margin-left: 1rem;
+                    }
+            
+                    i{
+                        font-size: 1.5rem;
+                    }
+            
+                    &:hover{
+                        color: v.$color-text;
+                    }
+
+                    li{
+                        
+                        &.active{
+                            color: v.$color-text;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}

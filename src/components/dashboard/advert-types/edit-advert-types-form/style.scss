@@ -1,0 +1,27 @@
+
+.edit-advert-form{
+
+    .input-group{
+
+        input{
+            background-color: #f3f3f3;
+            border:none ;
+            border-radius: 10px;
+        }
+    }
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 1rem;
+
+        @media(min-width:576px){
+            justify-content: flex-end;
+        }
+
+        button{
+            max-width: 100px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+@use "../../../../styles/variables.scss" as v;
+
+.container {
+    .img-col{
+      position: relative;
+      
+      img{
+          border-radius: 20px;
+          margin-bottom: 30px;
+          border-radius: 20px;
+          
+          @media (max-width: 576px) {
+            margin-bottom: 0;
+          }
+      }
+
+      span{
+        &.status{
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            z-index: 2;
+        }
+    }
+  }
+
+  .tour-container {
+    padding: 30px;
+    .tour-info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      @media (max-width: 576px) {
+        display: flex;
+        align-items: self-start;
+
+        flex-direction: column;
+      }
+    }
+  }
+
+  .title {
+    color: black;
+    font-size: 36px;
+  }
+
+  .price-tag {
+    font-size: 1.5rem;
+    color: #393939;
+  }
+
+  form {
+    .form-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+
+  .input-group {
+    display: inline-block;
+
+    input {
+      width: 100%;
+
+      background-color: #f3f3f3;
+      border-bottom: 1px solid #333333;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+
+    button{
+      width: 100px;
+    }
+
+    @media(max-width:992px){
+      justify-content: center;
+    }
+  }
+}

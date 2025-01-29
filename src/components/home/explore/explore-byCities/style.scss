@@ -1,0 +1,63 @@
+@use "../../../../styles/variables.scss" as v;
+
+.byCities{
+
+    .swiper-slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+        height: 150px;
+    }
+
+    h2{
+        margin: 0;
+
+        @media(max-width: 576px){
+            text-align: center;
+        }
+    }
+
+    h6{
+        color: #F18506;
+        margin: 0;
+
+        @media(max-width: 576px){
+            text-align: center;
+        }
+    }
+
+    .cities{
+        background-color: v.$color2-opacity-50;
+        border-radius:50%;
+        height: 90px;
+        width: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+
+        h4{
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 0;
+            text-align: center;
+        }
+
+        p{
+            white-space: nowrap;
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+
+        }
+    }
+
+    .finger{
+        position: absolute;
+        right: 30px;
+        color: v.$color-text2;
+    }
+}

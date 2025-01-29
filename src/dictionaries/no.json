@@ -1,0 +1,125 @@
+{
+  "home": {
+    "exploreProperties": "Utforsk Eiendommer",
+    "byCities": "Etter Byer",
+    "properties": "eiendommer",
+    "byTypes": "Etter Typer",
+    "needHelp": "Trenger du hjelp? Snakk med vår ekspert.",
+    "talkTo": "Snakk med våre eksperter eller bla gjennom flere eiendommer.",
+    "contactUs": "Kontakt Oss",
+    "discoverPopularProperties": "Oppdag Populære Eiendommer",
+    "featuredProperties": "Utvalgte eiendommer",
+    "getYour": "Få drømmehuset ditt",
+    "turnYour": "Gjør drømmene dine til virkelighet med",
+    "whereYour": "der ditt perfekte hjem blir en mulighet.",
+    "registerNow": "Registrer Deg Nå",
+    "letsFind": "La oss finne den rette salgsopsjonen for deg",
+    "techDriven": "Teknologidrevet Markedsføring",
+    "realEstate": "Eiendom omfavner teknologi med virtuelle turer, 3D-modeller og blokkjedetransaksjoner.",
+    "sustainabilityMatters": "Bærekraft Er Viktig",
+    "greenBuilding": "Grønne byggepraksiser og miljøvennlige funksjoner blir stadig mer populære blant miljøbevisste kjøpere.",
+    "remoteWorkImpact": "Innvirkning av Fjernarbeid",
+    "changingWork": "Endrede arbeidsmønstre former boligpreferanser og favoriserer forstads- og urbane blandingsutviklinger.",
+    "forSale": "Til salgs",
+    "forRent": "Til leie",
+    "all": "Alle",
+    "hello": "Hei",
+    "mainMenu":[
+      {
+        "title": "Hjem",
+        "link": "/"
+      },
+      {
+        "title": "Eiendommer",
+        "link": "/properties"
+      },
+      {
+        "title": "Om oss",
+        "link": "/about"
+      },
+      {
+        "title": "Kontakt",
+        "link": "/contact"
+      }
+    ],
+    "slider": [
+      {
+        "id": 1,
+        "image": "slider-1.png",
+        "title": "Enkel måte å finne en perfekt eiendom"
+      },
+      {
+        "id": 2,
+        "image": "slider-2.png",
+        "title": "Oppdag din drømmeeiendom med oss"
+      }
+    ],
+    "addProperty":"Legg til eiendom"
+
+  },
+
+  "login": {
+    "confirmYour": "Bekreft e-postadressen din!!!",
+    "eMail": "E-post",
+    "password": "Passord",
+    "forgotPassword": "Glemt passord?",
+    "ifYou": "Hvis du ikke har en konto,",
+    "registerNow": "Registrer deg nå!"
+  },
+  "footer": {
+    "QuickLinks": "Hurtiglenker",
+    "PrivacyPolicy": "Personvernpolicy",
+    "Contact": "Kontakt",
+    "description": "Oppdag ditt perfekte fristed med Warmy Homes. Fra koselige hytter til moderne leiligheter, tilbyr vi en allsidig portefølje for å passe enhver livsstil. La vårt erfarne team guide deg sømløst gjennom prosessen. Finn varme, komfort og ro med Warmy Homes i dag.",
+    "menu": [
+      {
+        "title": "Hjem",
+        "link": "/"
+      },
+      {
+        "title": "Eiendommer",
+        "link": "/properties"
+      },
+      {
+        "title": "Om oss",
+        "link": "/about"
+      },
+      {
+        "title": "Kontakt",
+        "link": "/contact"
+      }
+    ]
+  },
+  "properties": {
+    "all": "Alle",
+    "findYourDreamHouse": "Finn drømmehuset ditt...",
+    "propertiesTitle": "Egenskaper",
+    "findYourHome": "Finn ditt hjem"
+  },
+
+
+  "about": {
+    "missionToChange": "Vi er på en misjon for å endre",
+    "viewRealEstate": "Utsikt over eiendomsfeltet.",
+    "textAboutUs": "   I hjertet av vår visjon ligger en bestemt forpliktelse til å transformere eiendomsbransjen. Vi er ikke bare et selskap; vi er på en misjon for å endre selve essensen av hvordan eiendom oppfattes og oppleves. Vår reise er definert av innovasjon, åpenhet og en utrettelig jakt på fortreffelighet. Med en dristig og fremtidsrettet tilnærming ønsker vi å revolusjonere de tradisjonelle normene i eiendomsfeltet, gjøre det mer tilgjengelig, effektivt og kundeorientert. Vårt mål er å forme en fremtid hvor kjøp, salg eller investering i eiendom er en sømløs og styrkende opplevelse for alle. Bli med oss på denne transformative reisen mens vi omskriver fortellingen om eiendom.",
+    "modernArchitect": "Moderne arkitekt",
+    "greenBuilding": "Grønn bygning"
+  },
+  "contact": {
+    "getTouch": "Har du et spørsmål? Ta kontakt!",
+    "firstName": "Fornavn",
+    "lastName": "Etternavn",
+    "email": "E-post",
+    "message": "Melding",
+    "send": "Send",
+    "happyToHear": "Vi vil gjerne høre",
+    "fromYou": "Fra deg.",
+    "text9000": "Vi er her for å svare på alle spørsmål du måtte ha. Som partner av bedrifter har Realton mer enn 9 000 kontorer i alle størrelser og alle potensielle sesjoner.",
+    "visitOffice": "Besøk vårt kontor",
+    "realtonText": "Realton har mer enn 9 000 kontorer i alle størrelser og alle potensielle sesjoner.",
+    "paris": "Paris",
+    "london": "London",
+    "istanbul": "Istanbul",
+    "placeHolder": "Legg igjen en melding her"
+  }
+}

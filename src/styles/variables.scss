@@ -1,0 +1,30 @@
+$color1: rgb(149,23,99);
+$color2: rgb(197, 116, 236);
+$color3: rgb(110, 110, 110);
+$color4: rgb(237, 237, 237);
+$color5:rgb(227, 210, 233);
+$color-text:rgb(59, 59, 59);
+$color-text2:rgb(147, 147, 147);
+$color1-opacity-50: rgb(149,23,99,0.5);
+$color2-opacity-50: rgba(197, 116, 236, 0.5);
+$vendors: ("", "-webkit-", "-moz-", "-ms-", "-o-");
+
+// Bootstrap variables
+$font-family-sans-serif: var(--font-akshar);
+$primary: $color1;
+$secondary: $color3;
+$info: $color-text;
+$success: $color-text2;
+$container-max-widths: (
+  sm: 540px,
+  md: 770px,
+  lg: 1010px,
+  xl: 1190px,
+  xxl: 1350px
+) !default;
+// scss-docs-end container-max-widths
+
+// SweetAlert
+$swal2-confirm-button-background-color: $color2;
+
+// En yeni branch teki ilk satır

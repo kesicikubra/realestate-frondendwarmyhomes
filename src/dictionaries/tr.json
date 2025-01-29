@@ -1,0 +1,160 @@
+{
+  "home": {
+    "exploreProperties": "Mülkleri Keşfet",
+    "byCities": "Şehirlere Göre",
+    "properties": "mülkler",
+    "byTypes": "Türlere Göre",
+    "needHelp": "Yardıma mı ihtiyacınız var? Uzmanımızla konuşun.",
+    "talkTo": "Uzmanlarımızla konuşun veya daha fazla mülkü inceleyin.",
+    "contactUs": "Bize Ulaşın",
+    "discoverPopularProperties": "Popüler Mülkleri Keşfedin",
+    "featuredProperties": "Öne Çıkan Mülkler",
+    "getYour": "Hayalinizdeki evi alın",
+    "turnYour": "Hayallerinizi gerçeğe dönüştürün",
+    "whereYour": "Mükemmel evinizin bir olasılık haline geldiği yerde.",
+    "registerNow": "Şimdi Kayıt Ol",
+    "letsFind": "Sizin İçin Doğru Satış Seçeneğini Bulalım",
+    "techDriven": "Teknoloji Odaklı Pazarlama",
+    "realEstate": "Gayrimenkul, sanal turlar, 3D modeller ve blok zinciri işlemleri ile teknolojiyi kucaklıyor.",
+    "sustainabilityMatters": "Sürdürülebilirlik Önemlidir",
+    "greenBuilding": "Çevre dostu bina uygulamaları ve özellikler, çevreye duyarlı alıcılar arasında popülerlik kazanıyor.",
+    "remoteWorkImpact": "Uzaktan Çalışma Etkisi",
+    "changingWork": "Değişen çalışma modelleri, banliyö ve kentsel karma kullanım gelişimlerini tercih eden konut tercihlerini yeniden şekillendiriyor.",
+    "forSale": "Satılık",
+    "forRent": "Kiralık",
+    "all":"Hepsi",
+    "hello":"Merhaba",
+    "mainMenu":[
+      {
+        "title": "Ana Sayfa",
+        "link": "/"
+      },
+      {
+        "title": "Emlaklar",
+        "link": "/properties"
+      },
+      {
+        "title": "Hakkımızda",
+        "link": "/about"
+      },
+      {
+        "title": "İletişim",
+        "link": "/contact"
+      }
+    ],
+    "slider": [
+      {
+        "id": 1,
+        "image": "slider-1.png",
+        "title": "Mükemmel Bir Mülk Bulmanın Kolay Yolu"
+      },
+      {
+        "id": 2,
+        "image": "slider-2.png",
+        "title": "Hayalinizdeki Mülkü Bizimle Keşfedin"
+      }
+    ],
+    "addProperty":"Mülk Ekle"
+  },
+  "login": {
+    "confirmYour": "E-posta adresinizi doğrulayın!!!",
+    "eMail": "E-posta",
+    "password": "Şifre",
+    "forgotPassword": "Şifrenizi mi unuttunuz?",
+    "ifYou": "Hesabınız yoksa ",
+    "registerNow": "Şimdi kayıt olun!"
+  },
+  "footer": {
+    "QuickLinks": "Hızlı Bağlantılar",
+    "PrivacyPolicy": "Gizlilik Politikası",
+    "Contact": "İletişim",
+    "description":"Warmy Homes ile mükemmel sığınağınızı keşfedin. Rahat kulübelerden modern çatı katlarına kadar, her yaşam tarzına uygun çeşitli bir portföy sunuyoruz. Deneyimli ekibimizin size sorunsuz bir şekilde rehberlik etmesine izin verin. Bugün Warmy Homes ile sıcaklığı, rahatlığı ve huzuru bulun.",
+    "menu":[
+      {
+        "title": "Ana Sayfa",
+        "link": "/"
+      },
+      {
+        "title": "Emlaklar",
+        "link": "/properties"
+      },
+      {
+        "title": "Hakkımızda",
+        "link": "/about"
+      },
+      {
+        "title": "İletişim",
+        "link": "/contact"
+      }
+    ]
+  },
+  "myAdverts": {
+    "addressInformation": "Adres Bilgileri",
+    "country": "Ülke",
+    "chooseCountry": "Ülke seç",
+    "city": "Şehir",
+    "district": "İlçe",
+    "address": "Adres",
+    "commonInformation": "Genel Bilgiler",
+    "title": "Başlık",
+    "description": "Açıklama",
+    "price": "Fiyat",
+    "advertType": "İlan Türü",
+    "ChooseAdvertType": "İlan türü seç",
+    "Image": "Görsel",
+    "DropThe": "Dosyaları buraya bırakın ...",
+    "DragDrop": "Dosyaları buraya sürükleyip bırakın veya seçmek için tıklayın",
+    "Properties": "Özellikler",
+    "Category": "Kategori",
+    "ChooseCategory": "Kategori seç",
+    "True": "Doğru",
+    "False": "Yanlış",
+    "Featured": "Öne Çıkan",
+    "Delete": "Sil",
+    "ChooseAnd": "Yeni görselleri seç ve güncelle",
+    "Status": "Durum",
+    "DateOf": "Tur Tarihi :",
+    "TimeOf": "Tur Saati :",
+    "GuestName:": "Misafir Adı:",
+    "EditImages": "Görselleri Düzenle",
+    "EditTour": "Tur Taleplerini Düzenle",
+    "Property": "Görsel mevcut değil",
+    "NoImageAvailable": "Görsel mevcut değil",
+    "View": "Görüntülenme :",
+    "Like": "Beğeni :",
+    "Tour": "Tur : ",
+    "DateOfPublish": "Yayın Tarihi :"
+  },
+
+  "properties": {
+    "all": "Hepsi",
+    "findYourDreamHouse": "Rüya Evini Bul...",
+    "propertiesTitle": "Emlak",
+    "findYourHome": "Evini Bul"
+  },
+
+    "about": {
+      "missionToChange": "Değişim Misyonundayız",
+      "viewRealEstate": "Gayrimenkul Alanına Bakış.",
+      "textAboutUs": "   Vizyonumuzun kalbinde, gayrimenkul sektörünün manzarasını dönüştürme kararlılığı yatıyor. Sadece bir şirket değiliz; gayrimenkulün özü nasıl algılanıyor ve deneyimleniyor değiştirme misyonundayız. Yolculuğumuz, yenilik, şeffaflık ve mükemmeliyet peşindeki bitmek bilmeyen bir arayışla tanımlanır. Cesur ve ileriye dönük bir yaklaşımla, gayrimenkul alanının geleneksel normlarını devrim niteliğinde değiştirmeyi ve daha erişilebilir, verimli ve müşteri odaklı hale getirmeyi hedefliyoruz. Amacımız, gayrimenkul alım, satım veya yatırım sürecinin herkes için sorunsuz ve güçlendirici bir deneyim olduğu bir gelecek şekillendirmektir. Gayrimenkul anlatısını yeniden yazarken bu dönüştürücü yolculuğa katılın.",
+      "modernArchitect": "Modern Mimari",
+      "greenBuilding": "Yeşil Binalar"
+    },
+    "contact": {
+      "getTouch": "Bir sorunuz mu var? İletişime geçin!",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "email": "E-posta",
+      "message": "Mesaj",
+      "send": "Gönder",
+      "happyToHear": "Fikrinizi duymak isteriz",
+      "fromYou": "Sizden.",
+      "text9000": "Herhangi bir sorunuz varsa, buradayız. Kurumsal bir firma olarak, Realton her boyutta ve her oturum potansiyelinde 9.000'den fazla ofise sahiptir.",
+      "visitOffice": "Ofisimizi Ziyaret Edin",
+      "realtonText": "Realton her boyutta ve her oturum potansiyelinde 9.000'den fazla ofise sahiptir.",
+      "paris": "Paris",
+      "london": "Londra",
+      "istanbul": "İstanbul",
+      "placeHolder": "Buraya bir mesaj bırakın"}
+  
+}

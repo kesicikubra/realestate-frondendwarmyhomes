@@ -1,0 +1,26 @@
+{
+    "admin" : [
+        { "title": "My Profile", "link":"/my-profile"},
+        { "title": "Change Password", "link":"/change-password"},
+        { "title": "My Properties", "link":"/my-properties"},
+        { "title": "Add Property", "link":"/add-property"},
+        { "title": "Tour Requests", "link":"/tour-requests"},
+        { "title": "Dashboard", "link":"/dashboard"}
+    ],
+    "manager" : [
+        { "title": "My Profile", "link":"/my-profile"},
+        { "title": "Change Password", "link":"/change-password"},
+        { "title": "My Properties", "link":"/my-properties"},
+        { "title": "Add Property", "link":"/add-property"},
+        { "title": "Tour Requests", "link":"/tour-requests"},
+        { "title": "Dashboard", "link":"/dashboard"}
+    ],
+    "customer" : [
+        { "title": "My Profile", "link":"/my-profile"},
+        { "title": "Change Password", "link":"/change-password"},
+        { "title": "My Properties", "link":"/my-properties"},
+        { "title": "My Favorites", "link":"/my-favorites"},
+        { "title": "Add Property", "link":"/add-property"},
+        { "title": "Tour Requests", "link":"/tour-requests"}
+    ]
+}

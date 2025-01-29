@@ -1,0 +1,80 @@
+@use "../../../styles/" as v;
+@use "../../../styles/mixins" as m;
+
+.card-container{
+  position: relative;
+
+  .like-button {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    color:v.$color-text2;
+    font-size: 2.5rem;
+    border: none;
+    background: transparent;
+    
+    svg{
+      &:hover{
+        color: v.$color1;
+        fill: v.$color1;
+      }
+    }
+    
+  }
+
+  .advert-card {
+    cursor: pointer;
+    background-size: cover;
+    background-position: center center;
+    height: 339px;
+    width: auto;
+    border: none;
+    outline: none;
+    
+    @include m.border-radius(20px);
+  
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(217, 217, 217, 0.95);
+      padding: 20px;
+      position: absolute;
+      bottom: 24px;
+      left: 50%;
+      @include m.transform(translateX(-50%));
+      width: 88%;
+      @include m.border-radius(20px);
+      text-overflow: ellipsis;
+  
+      .card-price {
+        border: 1px solid v.$color-text;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 46px;
+        padding: 14px;
+        @include m.border-radius(10px);
+      }
+  
+      .card-text{
+          p{
+              font-size: 15px;
+              font-weight: 400;
+              max-width: 200px;
+              margin:0;
+              text-overflow: ellipsis;
+              white-space: nowrap; 
+              overflow: hidden;
+
+          }
+          span{
+              font-size: 15px;
+              font-weight: lighter;
+              opacity: 0.7;
+          }
+      }
+    }
+  }
+}

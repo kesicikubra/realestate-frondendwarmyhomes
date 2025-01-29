@@ -1,0 +1,63 @@
+@use "../../../styles/variables.scss" as v;
+
+.statistic-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 219px;
+    background-color: #d9d9d9;
+    padding: 3rem;
+    border-radius: 10px;
+
+    .statistic-card{
+        
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 0.3rem;
+
+            span{
+                width: 25px;
+                height: 25px;
+                border: 3px solid v.$color1;
+            }
+
+            h3{
+                font-size: 29px;
+                margin-bottom: 0;
+
+                @media(max-width:576px){
+                    font-size: 20px;
+                }
+            }
+        }
+
+        p{
+            font-size: 96px;
+            line-height: 90px;
+            margin-bottom: 0;
+
+            @media(max-width:576px){
+                font-size: 70px;
+                line-height: 70px;
+            }
+        }
+    }
+
+    @media(max-width:576px){
+        max-width: 350px;
+        padding:1.5rem;
+    }
+
+    @media(max-width:1200px){
+        max-width: 300px;
+        padding: 2.5rem;
+    }
+
+    @media(max-width:1410px){
+        max-width: 300px;
+        padding: 2rem;
+    }
+}

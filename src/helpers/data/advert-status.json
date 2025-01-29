@@ -1,0 +1,5 @@
+[
+    {"title":"Pending", "value":"PENDING"},
+    {"title":"Activated", "value":"ACTIVATED"},
+    {"title":"Rejected", "value":"REJECTED"}
+]

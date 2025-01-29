@@ -1,0 +1,94 @@
+@use "../../styles/variables.scss" as v;
+@use "../../styles/mixins.scss" as m;
+
+.contact-container{
+
+    .row{
+        @media(max-width: 992px){
+            display: flex;
+            flex-direction: column-reverse; 
+        }
+
+        @media(min-width:992px){
+            transform: translateY(-450px);
+            height: 275px;
+        }
+        
+
+    }
+    
+    .contact-form{
+        max-width: 408px;
+        border:1px solid #EAE9E9;
+        background-color: white;
+        padding: 45px;
+        @include m.border-radius(20px);
+
+
+        .input-group{
+            display: block;
+            position: relative;
+
+            input{
+                background-color: #EAE9E9;
+                border: none;
+                outline: none;
+                margin-bottom: 10px;
+            }
+            .invalid-feedback{
+                position: absolute;
+                bottom: -18px;
+            }
+            textarea{
+                background-color: #EAE9E9;
+                border: none;
+                outline: none;
+                margin-bottom: 10px;
+                height: 120px;
+                resize: none;
+            }
+        }
+        h2{
+            font-size: 18px;
+        }
+
+        label{
+            font-size: 14px;
+
+        }
+
+        button{
+            width: 100%;
+        }
+
+    }
+    .hear{
+
+        h2{
+            font-size: 30px;
+            line-height: 33px;
+            margin-bottom: 0;
+        }
+
+        p{
+            font-size: 15px;
+            line-height: 17px;
+            margin-top: 10px;
+        }
+
+        @media(max-width: 992px){
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        @media(min-width: 992px){
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            width: 382px;
+            margin-bottom: 30px;
+        }
+
+    }
+    
+}

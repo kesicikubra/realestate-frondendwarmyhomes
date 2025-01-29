@@ -1,0 +1,119 @@
+@use "../../../styles/variables.scss" as v;
+
+.category-table{
+    
+    .table-card{
+        border: none;
+        
+        .card-body{
+    
+            table{
+                width: 100%;
+                border-collapse:separate;
+                border-spacing: 0 20px;
+    
+                // @media(max-width:992px){
+                //     border-collapse: none;
+                //     border-spacing:none;
+                // }
+                
+                thead{
+        
+                    tr{
+    
+                        th{
+                            text-align: center;
+    
+                            &:last-child{
+                                text-align: center;
+                            }
+    
+                            //for view/like/tour alignment
+                            &:nth-child(4){
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+        
+                tbody{
+                    
+                    tr{
+                        vertical-align: middle;
+    
+                        @media(max-width:992px){
+                            display:block;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: row;
+                            
+                        }
+                        
+                        td{
+                            text-align: center;
+                            margin-bottom: 2rem;
+                            background-color: rgb(217, 217, 217,0.3);
+
+                            .toolbar{
+                                
+                                a{
+                                    font-size: 25px;
+
+                                    @media(max-width:992px){
+                                        font-size: 20px;
+                                    }
+                                }
+
+                                button{
+                                    font-size: 25px;
+
+                                    @media(max-width:992px){
+                                        font-size: 20px;
+                                    }
+                                }
+
+                                @media(max-width:992px){
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+
+                            }
+                            
+                            span{
+                                color:v.$color-text ;
+    
+                                &:first-child{
+                                    font-weight: 600;
+                                    font-size: 1rem;
+                                }
+                            }
+    
+                            &:first-child{
+                                border-radius: 20px 0 0 20px;
+                                text-align: left;
+                                
+                                @media(max-width:992px){
+                                    width: 50px;
+                                }
+    
+                            }
+        
+                            &:last-child{
+                                border-radius: 0 20px 20px 0;
+                            }
+    
+                            @media(max-width:992px){
+                                margin: 0;
+                                width: 100%;
+                                padding-right: 1rem;
+                                padding-left: 1rem;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

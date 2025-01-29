@@ -1,0 +1,27 @@
+
+.lang-switcher-dropdown{
+
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+
+        img{
+            border-radius: 50%;
+        }
+    }
+
+    .lang-switcher{
+    
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+    
+            img{
+                border-radius: 50%;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+
+.advert-type{
+    width: 100px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media(max-width:768px){
+        width: 42px;
+        border-radius: 50%;
+    }
+}

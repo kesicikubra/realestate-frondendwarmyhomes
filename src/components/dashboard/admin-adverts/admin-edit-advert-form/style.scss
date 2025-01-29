@@ -1,0 +1,96 @@
+@use "../../../../styles/variables.scss" as v;
+
+.edit-advert-form{
+
+    .input-group{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    
+        .form-control {
+          width: 100%;
+          background-color: #eae9e9;
+          border: none;
+          border-bottom: 2px solid v.$color-text2;
+        }
+    
+        .invalid-feedback{
+          position: absolute;
+          bottom: -20px;
+        }
+      }
+
+      textarea{
+        width: 100%;
+        height: 150px;
+    }
+
+    select{
+
+      &::-webkit-scrollbar {
+          width: 10px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background: v.$color1;
+          border-radius: 5px; 
+        }
+
+        
+        &::-webkit-scrollbar-track {
+          background: #d9d9d9;
+        }
+
+      &.form-select{
+          background-color: #eae9e9;
+          border-radius: 10px;
+          border: none;
+          border-bottom: 2px solid v.$color-text2;
+      }
+      option{
+          background-color: #d9d9d9;
+          border-radius: 10px;
+
+          &:hover{
+              background-color: v.$color1;
+          }
+          
+      }
+  }
+
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+
+    @media(max-width:992px){
+      justify-content: center;
+    }
+
+    button{
+      width: 125px;
+    }
+  }
+
+  .property-keys{
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    padding: 1rem;
+
+    .form-control {
+      width: 100%;
+      background-color: white;
+      border: none;
+    }
+    .form-select{
+      background-color: white;
+      border-bottom: none;
+    }
+
+    option{
+      background-color: white;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@use "../../styles/variables" as v;
+
+.login-form {
+
+  
+  .password-group {
+    .was-validated .form-control:invalid, 
+    .form-control.is-invalid {
+        background-position: right calc(2.5em + 0.1875rem) center;
+        border-color: var(--bs-form-invalid-border-color);
+        padding-right: calc(1.5em + 0.75rem);
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='" + v.$color1 + "'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='" + v.$color1 + "' stroke='none'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+    }
+}
+
+  .card {
+    border: none;
+
+    .card-body{
+      
+      .input-group{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+
+        &.password-group{
+          position: relative;
+          transition: all 0.2s linear;
+
+          svg{
+            position: absolute;
+            top: 30px;
+            right: 10px;
+            transition: all 0.2s linear;
+            z-index: 10;
+          }
+        }
+
+        .form-control {
+          width: 100%;
+          background-color: #eae9e9;
+          border: none;
+          border-bottom: 2px solid v.$color-text2;
+        }
+
+        .invalid-feedback{
+          position: absolute;
+          bottom: -20px;
+        }
+      }
+    }
+  }
+
+  .register {
+    text-decoration: underline;
+    color: black;
+  }
+
+
+  a{
+   color: v.$color-text;
+   width: 100%;
+   text-align: right;
+   display: block;
+
+   &:hover{
+      color: v.$color1;
+   }
+  }
+
+  .register-text{
+   margin-top: 1rem;
+   text-align: center;
+   color: v.$color-text2;
+
+   a{
+      display: inline;
+      text-decoration: underline;
+      color: v.$color-text;
+
+      &:hover{
+        color: v.$color1;
+      }
+   }
+  }
+}

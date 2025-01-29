@@ -1,0 +1,44 @@
+@use "../../../../styles/variables.scss" as v;
+
+.privacy-offcanvas{
+    padding: 2rem;
+    min-height: 300px;
+
+    .offcanvas-header{
+        padding-top: 0;
+        padding-bottom: 0;
+
+        h5{
+            color: v.$color1;
+        }
+    }
+
+    .offcanvas-body{
+        overflow: hidden;
+
+        @media(max-width:992px){
+            overflow-y: scroll;
+        }
+
+        p{
+            text-align: justify;
+            
+            u{
+                text-decoration-color:v.$color1;
+                text-decoration-thickness: 2px;
+                font-style: italic;
+            }
+        }
+
+    }
+
+    .buttons{
+        text-align: center;
+
+        button{
+            width: 150px;
+        }
+
+    }
+    
+}

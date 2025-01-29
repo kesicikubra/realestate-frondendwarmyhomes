@@ -1,0 +1,124 @@
+{
+   "home":{
+
+    "exploreProperties": "Explorer les Propriétés",
+    "byCities": "Par Villes",
+    "properties": "propriétés",
+    "byTypes": "Par Types",
+    "needHelp": "Besoin d'aide ? Parlez à notre expert.",
+    "talkTo": "Parlez à nos experts ou parcourez plus de propriétés.",
+    "contactUs": "Contactez-nous",
+    "discoverPopularProperties": "Découvrez des Propriétés Populaires",
+    "featuredProperties": "Propriétés en Vedette",
+    "getYour": "Obtenez la maison de vos rêves",
+    "turnYour": "Transformez vos aspirations en réalité avec",
+    "whereYour": "où votre maison parfaite devient une possibilité.",
+    "registerNow": "Inscrivez-vous Maintenant",
+    "letsFind": "Trouvons l'option de vente qui vous convient",
+    "techDriven": "Marketing Axé sur la Technologie",
+    "realEstate": "L'immobilier adopte la technologie avec des visites virtuelles, des modèles 3D et des transactions par blockchain.",
+    "sustainabilityMatters": "La Durabilité Compte",
+    "greenBuilding": "Les pratiques de construction écologique et les caractéristiques respectueuses de l'environnement gagnent en popularité auprès des acheteurs soucieux de l'environnement.",
+    "remoteWorkImpact": "Impact du Télétravail",
+    "changingWork": "Les changements dans les modes de travail transforment les préférences en matière de logement, favorisant les développements suburbains et urbains à usage mixte.",
+    "forSale":"À vendre",
+    "forRent":"À louer",
+    "all":"Tous",
+    "hello":"Salut",
+    "mainMenu":[
+      {
+        "title": "Accueil",
+        "link": "/"
+      },
+      {
+        "title": "Propriétés",
+        "link": "/properties"
+      },
+      {
+        "title": "À propos",
+        "link": "/about"
+      },
+      {
+        "title": "Contact",
+        "link": "/contact"
+      }
+    ],
+    "slider": [
+      {
+        "id": 1,
+        "image": "slider-1.png",
+        "title": "Un moyen facile de trouver une propriété parfaite"
+      },
+      {
+        "id": 2,
+        "image": "slider-2.png",
+        "title": "Découvrez la propriété de vos rêves avec nous"
+      }
+    ],
+    "addProperty":"Ajouter une propriété"
+   },
+   "login": {
+      "confirmYour": "Confirmez votre adresse e-mail !!!",
+      "eMail": "E-mail",
+      "password": "Mot de passe",
+      "forgotPassword": "Mot de passe oublié?",
+      "ifYou": "Si vous n'avez pas de compte,",
+      "registerNow": "Inscrivez-vous maintenant!"
+    },
+    "footer": {
+      "QuickLinks": "Liens Rapides",
+      "PrivacyPolicy": "Politique de Confidentialité",
+      "Contact": "Contact",
+      "description":"Découvrez votre sanctuaire idéal avec Warmy Homes. Des cottages confortables aux lofts modernes, nous proposons un large éventail de biens immobiliers pour s'adapter à tous les styles de vie. Laissez notre équipe expérimentée vous guider en toute transparence tout au long du processus. Trouvez la chaleur, le confort et la sérénité avec Warmy Homes dès aujourd'hui.",
+      "menu": [
+        {
+          "title": "Accueil",
+          "link": "/"
+        },
+        {
+          "title": "Propriétés",
+          "link": "/properties"
+        },
+        {
+          "title": "À propos",
+          "link": "/about"
+        },
+        {
+          "title": "Contact",
+          "link": "/contact"
+        }
+      ]
+    }, 
+    "properties": {
+      "all": "Tous",
+      "findYourDreamHouse": "Trouvez votre maison de rêve...",
+      "propertiesTitle": "Propriétés",
+      "findYourHome": "Trouvez votre maison"
+    },
+    "about": {
+      "missionToChange": "Nous sommes en mission pour changer",
+      "viewRealEstate": "Vue du domaine immobilier.",
+      "textAboutUs": "   Au cœur de notre vision se trouve un engagement résolu à transformer le paysage de l'industrie immobilière. Nous ne sommes pas seulement une entreprise ; nous sommes en mission pour changer l'essence même de la perception et de l'expérience de l'immobilier. Notre parcours est défini par l'innovation, la transparence et une poursuite incessante de l'excellence. Avec une approche audacieuse et tournée vers l'avenir, nous cherchons à révolutionner les normes traditionnelles du domaine immobilier, le rendant plus accessible, efficace et centré sur le client. Notre aspiration est de façonner un avenir où l'achat, la vente ou l'investissement dans l'immobilier est une expérience fluide et valorisante pour tous. Rejoignez-nous dans ce voyage transformateur alors que nous réécrivons le récit de l'immobilier.",
+      "modernArchitect": "Architecte moderne",
+      "greenBuilding": "Bâtiment vert"
+    },
+    "contact": {
+      "getTouch": "Vous avez une question? Contactez-nous!",
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "email": "E-mail",
+      "message": "Message",
+      "send": "Envoyer",
+      "happyToHear": "Nous serions ravis d'entendre",
+      "fromYou": "De vous.",
+      "text9000": "Nous sommes là pour répondre à toutes vos questions. En tant que partenaire des entreprises, Realton compte plus de 9 000 bureaux de toutes tailles et de toutes capacités de session.",
+      "visitOffice": "Visitez notre bureau",
+      "realtonText": "Realton compte plus de 9 000 bureaux de toutes tailles et de toutes capacités de session.",
+      "paris": "Paris",
+      "london": "Londres",
+      "istanbul": "Istanbul",
+      "placeHolder": "Laissez un message ici"
+    }
+
+    
+  }

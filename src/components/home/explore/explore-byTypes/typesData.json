@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "image":"houses40x40.svg",
+        "type":"Houses",
+        "amount":33
+    },
+    {
+        "id":2,
+        "image":"Apartments40x40.svg",
+        "type":"Apartments",
+        "amount":21
+    },
+    {
+        "id":3,
+        "image":"Offices.svg",
+        "type":"Offices",
+        "amount":85
+    },
+    {
+        "id":4,
+        "image":"Villas39x39.svg",
+        "type":"Villas",
+        "amount":15
+    },
+    {
+        "id":5,
+        "image":"Bungalov35x37.svg",
+        "type":"Bungalows",
+        "amount":21
+    }
+]

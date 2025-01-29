@@ -1,0 +1,170 @@
+{
+  "home": {
+    "exploreProperties": "Explore Properties",
+    "byCities": "By Cities",
+    "properties": "properties",
+    "byTypes": "By Types",
+    "needHelp": "Need help? Talk to our expert .",
+    "talkTo": "Talk to our experts or Browse through more properties.",
+    "contactUs": "Contact Us",
+    "discoverPopularProperties": "Discover Popular Properties",
+    "featuredProperties": "Featured properties",
+    "getYour": "Get your dream house",
+    "turnYour": "Turn your aspirations into reality with",
+    "whereYour": "where your perfect home becomes a possibility.",
+    "registerNow": "Register Now",
+    "letsFind": "Let’s Find The Right Selling Option For You",
+    "techDriven": "Tech-Driven Marketing",
+    "realEstate": "Real estate is embracing technology with virtual tours, 3D models, and blockchain transactions.",
+    "sustainabilityMatters": "Sustainability Matters",
+    "greenBuilding": "Green building practices and eco-friendly features are gaining popularity for environmentally conscious buyers.",
+    "remoteWorkImpact": "Remote Work Impact",
+    "changingWork": "Changing work patterns are reshaping housing preferences, favoring suburban and urban mixed-use developments.",
+    "forSale": "For Sale",
+    "forRent": "For Rent",
+    "all":"All",
+    "hello":"Hello",
+    "mainMenu":[
+      {
+        "title": "Home",
+        "link": "/"
+      },
+      {
+        "title": "Properties",
+        "link": "/properties"
+      },
+      {
+        "title": "About",
+        "link": "/about"
+      },
+      {
+        "title": "Contact",
+        "link": "/contact"
+      }
+    ],
+    "slider":[
+      {
+          "id": 1,
+          "image": "slider-1.png",
+          "title": "Easy Way to Find a Perfect Property"
+      },
+      {
+          "id": 2,
+          "image": "slider-2.png",
+          "title": "Discover Your Dream Property with Us"
+      }
+  ],
+  "addProperty":"Add Property"
+  },
+
+  "login": {
+    "confirmYour": "Confirm your e-mail address!!!",
+    "eMail": "E Mail",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "ifYou": "If you dont have an account,",
+    "registerNow": "Register now!"
+  },
+  "footer": {
+    "QuickLinks": "Quick Links",
+    "PrivacyPolicy": "Privacy Policy",
+    "Contact": "Contact",
+    "description":"Discover your perfect sanctuary with Warmy Homes. From cozy cottages to modern lofts, we offer a diverse portfolio to suit every lifestyle. Let our experienced team guide you seamlessly through the process. Find warmth, comfort, and serenity with Warmy Homes today.",
+    "menu":[
+      {
+        "title": "Home",
+        "link": "/"
+      },
+      {
+        "title": "Properties",
+        "link": "/properties"
+      },
+      {
+        "title": "About",
+        "link": "/about"
+      },
+      {
+        "title": "Contact",
+        "link": "/contact"
+      }
+    ]
+  },
+
+  "myAdverts": {
+    "addressInformation": "Address Information",
+    "country": "Country",
+    "chooseCountry": "Choose country",
+    "city": "City",
+    "district": "District",
+    "address": "Address",
+    "commonInformation": "Common Information",
+    "title": "Title",
+    "description": "Description",
+    "price": "Price",
+    "advertType": "Advert Type",
+    "ChooseAdvertType": "Choose advert type",
+    "Image": "Image",
+    "DropThe": "Drop the files here ...",
+    "DragDrop": "Drag & drop files here, or click to select files",
+    "Properties": "Properties",
+    "Category": "Category",
+    "ChooseCategory": "Choose category",
+    "True": "True",
+    "False": "False",
+    "Featured": "Featured",
+    "Delete": "Delete",
+    "ChooseAnd": "Choose and update new images",
+    "Status": "Status",
+    "DateOf": "Date of Tour :",
+    "TimeOf": "Time of Tour :",
+    "GuestName:": "GuestName:",
+    "EditImages": "Edit Images",
+    "EditTour": "Edit Tour Requests",
+    "Property": "No image available",
+    "NoImageAvailable": "No image available",
+    "View": "View :",
+    "Like": "Like :",
+    "Tour": "Tour : ",
+    "DateOfPublish": "Date of Publish :"
+  },
+
+  "properties": {
+    "all": "All",
+    "findYourDreamHouse": "Find Your Dream House...",
+    "propertiesTitle": "Properties",
+    "findYourHome": "Find Your Home"
+  },
+  "about":{
+    "missionToChange":"We are on a Mission to Change",
+    "viewRealEstate":"View of Real Estate Field.",
+    "textAboutUs":"   At the heart of our vision lies a resolute commitment to transform the landscape of the real estate industry. We are not just a company; we are on a mission to change the very essence of how real estate is perceived and experienced. Our journey is defined by innovation, transparency, and a relentless pursuit of excellence. With a bold and forward-thinking approach, we seek to revolutionize the traditional norms of the real estate field, making it more accessible, efficient, and customer-centric. Our aspiration is to shape a future where buying, selling, or investing in real estate is a seamless and empowering experience for all. Join us on this transformative journey as we rewrite the narrative of real estate.",
+    "modernArchitect":"Modern Architect",
+    "greenBuilding":"Green Building"  
+  },
+  "title":{
+    "aboutUs": "About Us",
+    "contact": "Contact"
+  },
+  "contact": {
+    "getTouch": "Have a question? Get in touch!",
+    "firstName":"First Name",
+    "lastName":"Last Name",
+    "email":"Email",
+    "message":"Message",
+    "send":"Send",
+    "happyToHear":"We’d Love To Hear",
+    "fromYou":"From You.",
+    "text9000":"We are here to answer any question you may have. As a partner of corporates, realton has more than 9,000 offices of all sizes and all potential of session.",
+    "visitOffice":"Visit Our Office",
+    "realtonText":"Realton has more than 9,000 offices of all sizes and all potential of session.",
+    "paris":"Paris",
+    "london":"London",
+    "istanbul":"Istanbul",
+    "placeHolder":"Leave a message here"
+  },
+
+  "myProperties":{
+    "donthaveproperties":"You don't have any properties."
+
+  }
+}

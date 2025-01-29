@@ -1,0 +1,105 @@
+@use "../../../styles/variables.scss" as v;
+
+.search-box {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50px;
+
+  @media (max-width: 992px) {
+    width: 100%;
+    left: 0;
+    top: 45%;
+    padding: 2rem;
+  }
+
+  @media (max-width: 575.98px) {
+    width: 100%;
+    left: 0;
+    top: 40%;
+    padding: 1rem;
+  }
+
+  .search-radios {
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+    border: 1px solid #d9d9d9;
+    border-bottom: none;
+
+    div {
+      label {
+        border: none;
+        position: relative;
+        border-radius: 15px 0 0 0;
+        &:last-child {
+          border-radius: 0 15px 0 0;
+          &::after {
+            content: "";
+            width: 1px;
+            height: 20px;
+            background-color: v.$color1;
+            z-index: 2;
+            position: absolute;
+            left: -1%;
+            top: 7px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.search-group {
+  display: flex;
+  gap: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0 15px 15px 15px;
+  width: 600px;
+  border: 1px solid #d9d9d9;
+
+  @media (max-width: 992px) {
+    width: 100%;
+  }
+
+  @media (max-width: 575.98px) {
+    width: 100%;
+  }
+
+  input {
+    background-color: #d9d9d9;
+  }
+}
+
+.type-radio {
+  display: flex;
+  gap: 1rem;
+  margin: 0.5rem;
+
+  input {
+    background-color: #d9d9d9;
+
+    &:checked {
+      background-color: v.$color1;
+      background-image: none;
+    }
+  }
+
+  @media (max-width: 576px) {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+// @media (max-width: 767.98px) { ... }
+
+// // Medium devices (tablets, less than 992px)
+// @media (max-width: 991.98px) { ... }
+
+// // Large devices (desktops, less than 1200px)
+// @media (max-width: 1199.98px) { ... }
+
+// // X-Large devices (large desktops, less than 1400px)
+// @media (max-width: 1399.98px) { ... }

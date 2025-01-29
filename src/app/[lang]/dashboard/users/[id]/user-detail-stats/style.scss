@@ -1,0 +1,24 @@
+@use "../../../../../../styles/variables.scss" as v;
+
+.dashboard-user-detail{
+
+    .nav-tabs{
+        width: 100%;
+
+        li{
+            width: 25%;
+
+            a{
+                color: v.$color-text;
+                &:hover{
+                    border-color: v.$color1;
+                    border-bottom: none;
+                }
+
+                &.active{
+                    color: v.$color1;
+                }
+            }
+        }
+    }
+}

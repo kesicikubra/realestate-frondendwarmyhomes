@@ -1,0 +1,78 @@
+@use "../../../styles/variables.scss" as v;
+
+
+form{
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    .advert-image{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+     
+        .img-container{
+            display: flex;
+            flex-wrap: wrap;
+          
+           width: 187px;
+           height: 123px;
+            position: relative;
+            img{
+                object-fit: cover;
+                object-position: center center;
+                border-radius:20px ;
+            }
+            .form-check{
+                position: absolute;
+              
+                top: -4px;
+                left: 0;
+                .form-check-input{
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    &:checked{
+                        background-color: v.$color1;
+                        background-image: none;
+                    }
+                }
+            }
+            .featured-text{
+                position: absolute;
+                bottom: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #f5f5f5;
+                color:black;
+                opacity: 0.9;
+                width: 80%;
+                height: 20px;
+                margin-left: 19px;
+                border-radius: 5px;
+                letter-spacing: 1px;
+              
+                p{
+                    font-size: 0.8rem;
+                    font-weight: 700;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+        
+    }
+    .action-buttons{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    &.image-form{
+        background-color: #f5f5f5;
+    }
+}

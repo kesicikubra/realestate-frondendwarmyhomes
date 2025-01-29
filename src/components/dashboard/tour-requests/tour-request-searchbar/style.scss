@@ -1,0 +1,21 @@
+
+
+.tour-requests-search{
+    width: 80%;
+    
+    .input-group{
+        position: relative;
+
+        .form-control{
+            border-radius: 20px !important;
+            padding: 0.5rem;
+        }
+
+        button{
+            position: absolute;
+            right: -3px;
+            top: 0;
+            z-index: 10;
+        }
+    }
+}

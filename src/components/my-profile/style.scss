@@ -1,0 +1,40 @@
+@use "../../styles/variables" as v;
+
+
+.update-form{
+
+    .card{
+        border: none;
+
+        .card-body{
+            .input-group{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                position: relative;
+
+                label{
+                    font-size: 18px;
+                }
+
+                input{
+                    background-color:#EAE9E9;
+                    border: none;
+                    // border-radius: 10px;
+                    border-bottom: 2px solid v.$color-text2;
+                    width: 100%;
+                }
+
+                .invalid-feedback{
+                    position: absolute;
+                    bottom: -20px;
+                }
+            }
+        }
+    }
+
+    
+
+    
+ }

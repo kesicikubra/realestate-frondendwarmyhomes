@@ -1,0 +1,55 @@
+@use "../../../../styles/variables.scss" as v;
+
+
+.user-btn{
+    color: v.$color1;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 175px;
+    padding: 0!important;
+
+    &:active{
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+    &:focus{
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+    .profile-photo{
+        border: 2px solid v.$color1!important;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.user-menu-offcanvas{
+    background-color: #444444;
+    width: 300px!important;
+
+    @media(max-width:768px){
+        width: 250px!important;
+    }
+
+    @media(max-width:576px){
+        width: 200px!important;
+    }
+    
+    a{
+        color: #FFFFFF;
+
+        &:hover{
+            opacity: 0.5;
+            color: #FFFFFF;
+        }
+        &.active{
+            opacity: 0.5;
+            color: #FFFFFF;
+        }
+    }
+}

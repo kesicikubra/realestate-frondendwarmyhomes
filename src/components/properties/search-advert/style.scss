@@ -1,0 +1,128 @@
+@use "../../../styles/variables.scss" as v;
+
+.search-form{
+    p{
+        margin: 0;
+        
+        button{
+            width: 100%;
+            padding:1rem 2rem;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.5s ease-in;
+
+            span{
+                transition: all 0.5s ease-in;
+            }
+        }
+        @media(max-width:768px){
+            background-color:v.$color5;
+            border-radius: 10px 10px 0 0;
+        }
+    }
+
+    .card{
+        padding: 20px;
+        padding-top: 0;
+        border-radius: 20px;
+        background-color: #f5f5f5;
+        border: none;
+
+        .card-body{
+            h5{
+                margin-top: 2.5rem;
+                margin-bottom: 0.7rem;
+            }
+
+            input{
+                
+                &.form-control{
+                    border: none;
+                    background-color: transparent;
+                    border-radius: 10px;
+                    outline: none;
+                    border: 1px solid v.$color-text2;
+                }
+
+                &.form-check-input{
+                    background-color: #d9d9d9;
+
+                    @media(max-width:768px){
+                        background-color: #f9f9f9;
+                    }
+
+                    &:checked{
+                        background-color: v.$color1;
+                        background-image: none;
+                    }
+                }
+            }
+
+            .input-group{
+                border: 1px solid v.$color-text2;
+                border-radius: 10px;
+
+                span{
+                    background-color: transparent;
+                    border: none;
+                }
+
+                input{
+                    border: none;
+                }
+
+            }
+
+            select{
+                
+                &::-webkit-scrollbar {
+                    width: 10px;
+                  }
+          
+                  &::-webkit-scrollbar-thumb {
+                    background: v.$color1;
+                    border-radius: 5px; 
+                  }
+          
+                  
+                  &::-webkit-scrollbar-track {
+                    background: #d9d9d9;
+                  }
+
+                &.form-select{
+                    background-color: transparent;
+                    border-radius: 10px;
+                    border: 1px solid v.$color-text2;
+                }
+                option{
+                    background-color: #d9d9d9;
+                    border-radius: 10px;
+
+                    &:hover{
+                        background-color: v.$color1;
+                    }
+                    
+                }
+            }
+
+            @media(max-width: 768px){
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+        }
+        @media(max-width:768px){
+            border-radius: 0 0 20px 20px;
+            background: linear-gradient(0, v.$color4, v.$color5);
+        }
+    }
+
+    button{
+        width: 100%;
+    }
+}
